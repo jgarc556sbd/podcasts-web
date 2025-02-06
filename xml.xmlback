@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<podcasts>
+    <podcast>
+        <id>1</id>
+        <title>Les Notícies de 3r ESO</title>
+        <description>L'actualitat setmanal vista pels alumnes de 3r</description>
+        <duration>15:30</duration>
+        <date>2025-02-06</date>
+        <group>Grup A</group>
+        <audioUrl>https://drive.google.com/uc?export=download&id=1MUeCoprb7mA5dCw76jF7LcMjdSHSKxPh</audioUrl>
+        <driveUrl>https://drive.google.com/file/d/1MUeCoprb7mA5dCw76jF7LcMjdSHSKxPh</driveUrl>
+        <image>pexels-pixabay-270288.jpg</image>
+        <tags>
+            <tag>Notícies</tag>
+            <tag>Actualitat</tag>
+        </tags>
+    </podcast>
+    <podcast>
+        <id>2</id>
+        <title>Entrevista al Director</title>
+        <description>Parlem sobre el futur de l'educació</description>
+        <duration>22:45</duration>
+        <date>2025-02-05</date>
+        <group>Grup B</group>
+        <audioUrl>https://drive.google.com/uc?export=download&id=1MUeCoprb7mA5dCw76jF7LcMjdSHSKxPh</audioUrl>
+        <driveUrl>https://drive.google.com/file/d/1MUeCoprb7mA5dCw76jF7LcMjdSHSKxPh</driveUrl>
+        <image>pexels-pixabay-270288.jpg</image>
+        <tags>
+            <tag>Entrevista</tag>
+            <tag>Educació</tag>
+        </tags>
+    </podcast>
+</podcasts>
