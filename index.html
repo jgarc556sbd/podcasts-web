@@ -261,6 +261,7 @@
             if (xmlDoc) {
                 const grid = document.getElementById('podcastGrid');
                 const podcasts = xmlDoc.getElementsByTagName('podcast');
+                console.log("Podcasts trobats:", podcasts.length);
                 
                 Array.from(podcasts).forEach(podcast => {
                     const card = createPodcastCard(podcast);
