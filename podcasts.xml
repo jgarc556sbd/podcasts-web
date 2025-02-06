@@ -7,8 +7,8 @@
         <duration>22:30</duration>
         <date>2025-02-06</date>
         <group>Grup A</group>
-        <audioUrl>audio/podcast2.mp3</audioUrl>
-        <driveUrl>audio/podcast2.mp3</driveUrl>
+        <audioUrl>audio/podcast1.mp3</audioUrl>
+        <driveUrl>audio/podcast1.mp3</driveUrl>
         <image>img/podcast1.jpg</image>
         <tags>
             <tag>Periodisme</tag>
@@ -22,8 +22,8 @@
         <duration>19:45</duration>
         <date>2025-02-06</date>
         <group>Grup B</group>
-        <audioUrl>audio/podcast1.mp3</audioUrl>
-        <driveUrl>audio/podcast1.mp3</driveUrl>
+        <audioUrl>audio/podcast2.mp3</audioUrl>
+        <driveUrl>audio/podcast2.mp3</driveUrl>
         <image>pexels-pixabay-270289.jpg</image>
         <tags>
             <tag>Entrevista</tag>
@@ -37,8 +37,8 @@
         <duration>21:00</duration>
         <date>2025-02-07</date>
         <group>Grup C</group>
-        <audioUrl>Podcast_20250207_003451.mp3</audioUrl>
-        <driveUrl>Podcast_20250207_003451.mp3</driveUrl>
+        <audioUrl>audio/podcast3.mp3</audioUrl>
+        <driveUrl>audio/podcast3.mp3</driveUrl>
         <image>pexels-pixabay-270290.jpg</image>
         <tags>
             <tag>Fonts</tag>
@@ -52,8 +52,8 @@
         <duration>24:30</duration>
         <date>2025-02-07</date>
         <group>Grup D</group>
-        <audioUrl>Podcast_20250207_004537.mp3</audioUrl>
-        <driveUrl>Podcast_20250207_004537.mp3</driveUrl>
+        <audioUrl>audio/podcast4.mp3</audioUrl>
+        <driveUrl>audio/podcast4.mp3</driveUrl>
         <image>pexels-pixabay-270291.jpg</image>
         <tags>
             <tag>Xarxes Socials</tag>
@@ -67,8 +67,8 @@
         <duration>26:15</duration>
         <date>2025-02-08</date>
         <group>Grup E</group>
-        <audioUrl>Podcast_20250208_005412.mp3</audioUrl>
-        <driveUrl>Podcast_20250208_005412.mp3</driveUrl>
+        <audioUrl>audio/podcast5.mp3</audioUrl>
+        <driveUrl>audio/podcast5.mp3</driveUrl>
         <image>pexels-pixabay-270292.jpg</image>
         <tags>
             <tag>Reportatge</tag>
