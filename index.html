@@ -165,7 +165,7 @@
         // Funció per carregar i parsejar l'XML
         async function loadPodcasts() {
             try {
-                const response = await fetch('ruta/al/teu/podcasts.xml');
+                const response = await fetch(podcasts.xml');
                 const xmlText = await response.text();
                 const parser = new DOMParser();
                 const xmlDoc = parser.parseFromString(xmlText, 'text/xml');
