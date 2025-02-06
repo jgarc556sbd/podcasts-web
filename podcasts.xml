@@ -7,8 +7,8 @@
         <duration>15:30</duration>
         <date>2025-02-06</date>
         <group>Grup A</group>
-        <audioUrl>URL_DEL_TEU_AUDIO_1</audioUrl>
-        <driveUrl>URL_DE_GOOGLE_DRIVE_1</driveUrl>
+        <audioUrl>https://drive.google.com/file/d/1MUeCoprb7mA5dCw76jF7LcMjdSHSKxPh/preview</audioUrl>
+        <driveUrl>https://drive.google.com/file/d/1MUeCoprb7mA5dCw76jF7LcMjdSHSKxPh</driveUrl>
         <image>/api/placeholder/400/320</image>
         <tags>
             <tag>Notícies</tag>
@@ -22,8 +22,8 @@
         <duration>22:45</duration>
         <date>2025-02-05</date>
         <group>Grup B</group>
-        <audioUrl>URL_DEL_TEU_AUDIO_2</audioUrl>
-        <driveUrl>URL_DE_GOOGLE_DRIVE_2</driveUrl>
+        <audioUrl>https://drive.google.com/file/d/1MUeCoprb7mA5dCw76jF7LcMjdSHSKxPh/preview</audioUrl>
+        <driveUrl>https://drive.google.com/file/d/1MUeCoprb7mA5dCw76jF7LcMjdSHSKxPh</driveUrl>
         <image>/api/placeholder/400/320</image>
         <tags>
             <tag>Entrevista</tag>
