@@ -166,7 +166,11 @@
         async function loadPodcasts() {
             try {
                 const response = await fetch('podcasts.xml');
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
                 const xmlText = await response.text();
+                console.log("XML rebut:", xmlText); // 💡 Comprova si l'XML és correcte
                 const parser = new DOMParser();
                 const xmlDoc = parser.parseFromString(xmlText, 'text/xml');
                 return xmlDoc;
