@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+  <!-- Línia zigzag -->
+  <path d="M40 40 L100 100 L160 40 L220 100 L280 40 L340 100" 
+        stroke="#00A0E3" 
+        stroke-width="20" 
+        fill="none" 
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+  
+  <!-- Text "Institut Sabadell" -->
+  <text x="40" y="160" 
+        font-family="Arial, sans-serif" 
+        font-size="48" 
+        fill="#666666">
+    Institut Sabadell
+  </text>
+</svg>
