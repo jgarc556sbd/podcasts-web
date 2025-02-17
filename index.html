@@ -13,6 +13,24 @@
             font-family: Arial, sans-serif;
         }
 
+        /* Estils del logo */
+        .institute-logo {
+            height: 40px;
+            width: auto;
+        }
+
+        .hero-logo {
+            height: 100px;
+            width: auto;
+            margin-bottom: 1.5rem;
+        }
+
+        .footer-logo {
+            height: 60px;
+            width: auto;
+            margin-bottom: 1rem;
+        }
+
         /* Estils de la navegació */
         nav {
             background-color: #1e293b;
@@ -36,6 +54,11 @@
             text-decoration: none;
             font-size: 1.25rem;
             font-weight: bold;
+        }
+        
+        .nav-logo-text {
+            color: white;
+            margin-left: 10px;
         }
 
         .nav-links {
@@ -143,8 +166,21 @@
             .footer-content {
                 grid-template-columns: 1fr;
             }
+
+            .institute-logo {
+                height: 40px;
+            }
+
+            .hero-logo {
+                height: 80px;
+            }
+
+            .footer-logo {
+                height: 60px;
+            }
         }
     </style>
+    
     <style>
         .podcast-container {
             max-width: 1200px;
@@ -285,15 +321,19 @@
     </style>
 </head>
 <body>
-    <!-- Navegació -->
+   <!-- Navegació -->
     <nav>
         <div class="nav-container">
             <a href="#" class="nav-logo">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M3 18v-6a9 9 0 0 1 18 0v6"></path>
-                    <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"></path>
+                <svg class="institute-logo" viewBox="0 0 400 200">
+                    <path d="M40 40 L100 100 L160 40 L220 100 L280 40 L340 100" 
+                          stroke="#00A0E3" 
+                          stroke-width="20" 
+                          fill="none" 
+                          stroke-linecap="round"
+                          stroke-linejoin="round"/>
                 </svg>
-                Ràdio Institut Sabadell
+                <span class="nav-logo-text">Ràdio Institut Sabadell</span>
             </a>
             <div class="nav-links">
                 <a href="#">Inici</a>
@@ -306,6 +346,20 @@
 
     <!-- Hero Section -->
     <section class="hero">
+        <svg class="hero-logo" viewBox="0 0 400 200">
+            <path d="M40 40 L100 100 L160 40 L220 100 L280 40 L340 100" 
+                  stroke="#FFFFFF" 
+                  stroke-width="20" 
+                  fill="none" 
+                  stroke-linecap="round"
+                  stroke-linejoin="round"/>
+            <text x="40" y="160" 
+                  font-family="Arial, sans-serif" 
+                  font-size="48" 
+                  fill="#FFFFFF">
+                Institut Sabadell
+            </text>
+        </svg>
         <h1>Els Nostres Pòdcasts</h1>
         <p>Descobreix els programes creats pels alumnes de 3r d'ESO de l'Institut Sabadell. Una col·lecció única de continguts sobre cultura, actualitat i molt més.</p>
     </section>
@@ -333,7 +387,21 @@
     <footer>
         <div class="footer-content">
             <div class="footer-section">
-                <h3>Sobre el Projecte</h3>
+                <!-- Logo de l'institut al footer -->
+                <svg class="footer-logo" viewBox="0 0 400 200">
+                    <path d="M40 40 L100 100 L160 40 L220 100 L280 40 L340 100" 
+                          stroke="#00A0E3" 
+                          stroke-width="20" 
+                          fill="none" 
+                          stroke-linecap="round"
+                          stroke-linejoin="round"/>
+                    <text x="40" y="160" 
+                          font-family="Arial, sans-serif" 
+                          font-size="48" 
+                          fill="#FFFFFF">
+                        Institut Sabadell
+                    </text>
+                </svg>
                 <p>Aquest projecte de ràdio escolar ha estat desenvolupat pels alumnes de 3r d'ESO de l'Institut Sabadell com a part del seu aprenentatge en mitjans de comunicació digitals.</p>
             </div>
             <div class="footer-section">
