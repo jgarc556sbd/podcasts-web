@@ -2,6 +2,149 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ràdio Institut Sabadell - 3r ESO</title>
+    <style>
+        /* Estils globals */
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f8fafc;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Estils de la navegació */
+        nav {
+            background-color: #1e293b;
+            padding: 1rem;
+            color: white;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: white;
+            text-decoration: none;
+            font-size: 1.25rem;
+            font-weight: bold;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            transition: background-color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            background-color: #2d3748;
+        }
+
+        /* Hero section */
+        .hero {
+            background-color: #3b82f6;
+            color: white;
+            padding: 3rem 1rem;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+            max-width: 600px;
+            margin: 0 auto;
+            opacity: 0.9;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #1e293b;
+            color: white;
+            padding: 2rem 1rem;
+            margin-top: 3rem;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+
+        .footer-section h3 {
+            color: #3b82f6;
+            margin-bottom: 1rem;
+        }
+
+        .footer-section p {
+            opacity: 0.8;
+            line-height: 1.6;
+        }
+
+        .footer-section ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .footer-section ul li {
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-section ul li a {
+            color: white;
+            text-decoration: none;
+            opacity: 0.8;
+            transition: opacity 0.3s ease;
+        }
+
+        .footer-section ul li a:hover {
+            opacity: 1;
+        }
+
+        /* Mantenim els estils existents del container de podcasts */
+        .podcast-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Responsiu */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .footer-content {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
     <style>
         .podcast-container {
             max-width: 1200px;
@@ -142,6 +285,31 @@
     </style>
 </head>
 <body>
+    <!-- Navegació -->
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M3 18v-6a9 9 0 0 1 18 0v6"></path>
+                    <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"></path>
+                </svg>
+                Ràdio Institut Sabadell
+            </a>
+            <div class="nav-links">
+                <a href="#">Inici</a>
+                <a href="#">Programes</a>
+                <a href="#">Sobre Nosaltres</a>
+                <a href="#">Contacte</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Els Nostres Pòdcasts</h1>
+        <p>Descobreix els programes creats pels alumnes de 3r d'ESO de l'Institut Sabadell. Una col·lecció única de continguts sobre cultura, actualitat i molt més.</p>
+    </section>
+    
     <div class="podcast-container">
         <div class="header">
             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2">
@@ -161,6 +329,33 @@
         <div class="podcast-grid" id="podcastGrid"></div>
     </div>
 
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Sobre el Projecte</h3>
+                <p>Aquest projecte de ràdio escolar ha estat desenvolupat pels alumnes de 3r d'ESO de l'Institut Sabadell com a part del seu aprenentatge en mitjans de comunicació digitals.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Enlaces d'Interès</h3>
+                <ul>
+                    <li><a href="#">Institut Sabadell</a></li>
+                    <li><a href="#">Blog de l'Institut</a></li>
+                    <li><a href="#">Altres Projectes</a></li>
+                    <li><a href="#">Contacta'ns</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Segueix-nos</h3>
+                <ul>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">YouTube</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
     <script>
         // Funció per carregar i parsejar l'XML
         async function loadPodcasts() {
