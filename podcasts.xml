@@ -2,77 +2,47 @@
 <podcasts>
     <podcast>
         <id>1</id>
-        <title>Introducció al Periodisme</title>
-        <description>En aquest episodi parlem sobre què és el periodisme i el seu paper en la societat.</description>
-        <duration>22:30</duration>
-        <date>2025-02-06</date>
-        <group>Grup A</group>
-        <audioUrl>audio/podcast1.mp3</audioUrl>
-        <driveUrl>audio/podcast1.mp3</driveUrl>
-        <image>img/podcast1.jpg</image>
+        <title>Rock vs. reguetó</title>
+        <description>Descripció Rock vs. reguetó.</description>
+        <duration>2:13</duration>
+        <date>desembre 2024</date>
+        <group>3r ESO</group>
+        <audioUrl>audio/Podcast1.mp3</audioUrl>
+        <driveUrl>audio/Podcast1.mp3</driveUrl>
+        <image>img/Podcast1.jpg</image>
         <tags>
-            <tag>Periodisme</tag>
-            <tag>Educació</tag>
+            <tag>opinió</tag>
+            <tag>rock</tag>
+            <tag>reguetó</tag>
         </tags>
     </podcast>
     <podcast>
         <id>2</id>
-        <title>Com Es Fa una Entrevista</title>
-        <description>En aquest episodi, analitzem les tècniques i consells per fer una bona entrevista periodística.</description>
-        <duration>19:45</duration>
-        <date>2025-02-06</date>
-        <group>Grup B</group>
-        <audioUrl>audio/podcast2.mp3</audioUrl>
-        <driveUrl>audio/podcast2.mp3</driveUrl>
-        <image>img/podcast2.jpg</image>
+        <title>Sindicat d'estudiants a l'institut Sabadell</title>
+        <description>Descripció Sindicat d'estudiants a l'institut Sabadell.</description>
+        <duration>6:01</duration>
+        <date>novembre 2024</date>
+        <group>3r ESO</group>
+        <audioUrl>audio/Podcast2.mp3</audioUrl>
+        <driveUrl>audio/Podcast2.mp3</driveUrl>
+        <image>img/Podcast2.png</image>
         <tags>
-            <tag>Entrevista</tag>
-            <tag>Periodisme</tag>
+            <tag>sindicat d'estudiants</tag>
         </tags>
     </podcast>
     <podcast>
         <id>3</id>
-        <title>La Importància de les Fonts d'Informació</title>
-        <description>Explorem com seleccionar fonts fiables i contrastar la informació en el periodisme.</description>
-        <duration>21:00</duration>
-        <date>2025-02-07</date>
-        <group>Grup C</group>
-        <audioUrl>audio/podcast3.mp3</audioUrl>
-        <driveUrl>audio/podcast3.mp3</driveUrl>
-        <image>img/podcast2.jpg</image>
+        <title>Protestes per la nova selectivitat</title>
+        <description>Descripció Protestes per la nova selectivitat.</description>
+        <duration>2:32</duration>
+        <date>octubre 2024</date>
+        <group>3r ESO</group>
+        <audioUrl>audio/Podcast3.mp3</audioUrl>
+        <driveUrl>audio/Podcast3.mp3</driveUrl>
+        <image>img/Podcast3.jpg</image>
         <tags>
-            <tag>Fonts</tag>
-            <tag>Periodisme</tag>
-        </tags>
-    </podcast>
-    <podcast>
-        <id>4</id>
-        <title>El Periodisme i les Xarxes Socials</title>
-        <description>Discutim com les xarxes socials han canviat la manera de fer periodisme.</description>
-        <duration>24:30</duration>
-        <date>2025-02-07</date>
-        <group>Grup D</group>
-        <audioUrl>audio/podcast4.mp3</audioUrl>
-        <driveUrl>audio/podcast4.mp3</driveUrl>
-        <image>img/podcast2.jpg</image>
-        <tags>
-            <tag>Xarxes Socials</tag>
-            <tag>Periodisme</tag>
-        </tags>
-    </podcast>
-    <podcast>
-        <id>5</id>
-        <title>Redacció d'un Reportatge</title>
-        <description>En aquest episodi, expliquem els passos per redactar un reportatge periodístic.</description>
-        <duration>26:15</duration>
-        <date>2025-02-08</date>
-        <group>Grup E</group>
-        <audioUrl>audio/podcast5.mp3</audioUrl>
-        <driveUrl>audio/podcast5.mp3</driveUrl>
-        <image>img/podcast2.jpg</image>
-        <tags>
-            <tag>Reportatge</tag>
-            <tag>Periodisme</tag>
+            <tag>manifestació</tag>
+            <tag>PAU2025</tag>
         </tags>
     </podcast>
 </podcasts>
